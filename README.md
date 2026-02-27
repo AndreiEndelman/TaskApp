@@ -9,7 +9,7 @@ Some notable elements of the app:
 
 -The app has a signup/login, and pages are protected by authguards. The portal also recognizes users by name.
 
--The app uses reactive and staic forms, on the TaskForm page (aka "add a new task") tasks are created and then on the back end a unique ID is assigned to them (see createNewTask method in TaskService.ts)
+-The app uses reactive and static forms, on the TaskForm page (aka "add a new task") tasks are created and then on the back end a unique ID is assigned to them (see createNewTask method in TaskService.ts)
 
 -To improve the UI, tasks are built on a TaskCard component, which is a floating card that contains information about the task and buttons like view/edit/complete, upon completion the user has the option to delete the task or keep the task visible.
 
